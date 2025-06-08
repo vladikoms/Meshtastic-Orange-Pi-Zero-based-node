@@ -62,7 +62,7 @@ sudo apt install meshtasticd
 Configuration
 -------------
 
-Edit /etc/meshtasticd/config.yaml file
+Edit **/etc/meshtasticd/config.yaml** file
 
 ```
 nano /etc/meshtasticd/config.yaml
