@@ -20,8 +20,8 @@ Edit **armbianEnv.txt** file
 ```
 sudo nano /boot/armbianEnv.txt
 ```
-Add to overlays string: spi-spidev, spi-add-cs1  
-Add strings
+Add to **overlays** string: spi-spidev, spi-add-cs1  
+And add strings:
 ```
 param_spidev_spi_bus=1
 param_spidev_spi_cs=0
