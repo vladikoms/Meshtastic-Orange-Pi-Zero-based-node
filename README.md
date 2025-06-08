@@ -16,7 +16,7 @@ Connections
 Enable SPI interface
 --------------------
 
-Edit armbianEnv.txt file
+Edit **armbianEnv.txt** file
 ```
 sudo nano /boot/armbianEnv.txt
 ```
