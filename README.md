@@ -26,7 +26,7 @@ And add strings:
 param_spidev_spi_bus=1
 param_spidev_spi_cs=0
 ```
-armbianEnv.txt file:
+**armbianEnv.txt** file:
 ```
 verbosity=1
 bootlogo=false
