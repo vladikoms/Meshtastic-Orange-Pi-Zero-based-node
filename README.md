@@ -2,7 +2,7 @@ It has been tested on the Orange Pi Zero 512MB platform (Armbian v25.8 rolling f
 
 Connections
 -----------
--RFM95 - Orange Pi Zero
+- RFM95  - Orange Pi Zero
 
 - 3.3V  - 3.3V (header pin #17)
 - GND  - GND (pin #25)
@@ -20,11 +20,12 @@ Edit armbianEnv.txt file
 ```
 sudo nano /boot/armbianEnv.txt
 ```
-Add to overlays string: spi-spidev, spi-add-cs1
+Add to overlays string: spi-spidev, spi-add-cs1  
 Add strings
+```
 param_spidev_spi_bus=1
 param_spidev_spi_cs=0
-
+```
 armbianEnv.txt file:
 ```
 verbosity=1
@@ -43,7 +44,11 @@ Check SPI
 ```
 ls /dev | grep spi
 ```
-If you see spidev1.0 then everything is OK
+If you see 
+```
+spidev1.0
+```
+then everything is OK
 
 Downloading & Installing Meshtastic
 ------------------------------------
