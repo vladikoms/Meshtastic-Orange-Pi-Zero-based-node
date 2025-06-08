@@ -1,4 +1,4 @@
-It has been tested on the Orange Pi Zero 512MB platform (Armbian v25.8 rolling for Orange Pi Zero running Armbian Linux 6.12.30-current-sunxi) and RFM95 radio module
+It has been tested on the Orange Pi Zero 512MB platform (Armbian v25.8 rolling for Orange Pi Zero running Armbian Linux 6.12.30-current-sunxi) and RFM95W radio module
 
 Connections
 -----------
